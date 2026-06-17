@@ -79,11 +79,20 @@ Red encoder-decoder con conexiones de salto (*skip connections*) simétricas ent
 
 ### CNN — Daniela Escobar
 
-*(completar)*
+Arquitectura encoder-decoder basada en redes convolucionales profundas con bloques residuales inspirados en ResNet. El modelo recibe como entrada un mapa de ocupación junto con las posiciones inicial y objetivo, representadas como canales independientes, y genera una máscara binaria correspondiente a la trayectoria estimada.
+
+- Bloques residuales para facilitar el flujo de información y mejorar la estabilidad del entrenamiento
+- Encoder convolucional para extracción de características espaciales del entorno
+- Decoder basado en Conv2DTranspose para reconstrucción de la trayectoria a resolución completa
+- BatchNormalization en las capas convolucionales para estabilizar el aprendizaje
 
 ### GAN — Angee Lorena Ocampo
 
-*(completar)*
+Modelo generativo adversario compuesto por un generador basado en una versión simplificada de U-Net y un discriminador convolucional encargado de diferenciar trayectorias reales de trayectorias sintéticas. El objetivo del entrenamiento adversario es que el generador produzca trayectorias cada vez más similares a las obtenidas mediante el algoritmo A*.
+
+- Generador encoder-decoder inspirado en U-Net
+- Discriminador convolucional para clasificación real/falso
+- Entrenamiento adversario mediante optimización simultánea de generador y discriminador
 
 ---
 
