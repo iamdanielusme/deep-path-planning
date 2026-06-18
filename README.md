@@ -10,7 +10,7 @@
 | Nombre | Correo institucional | Rol en el proyecto |
 |---|---|---|
 | Angee Lorena Ocampo | angee.ocampo@udea.edu.co | Generación del dataset · GAN |
-| Daniela Escobar | daniela.escobarv@udea.edu.co | CNN |
+| Daniela Escobar | daniela.escobarv@udea.edu.co | CNN - ResNet |
 | Daniel Usme Urrea | dalejandro.usme@udea.edu.co | U-Net |
 
 ---
@@ -200,14 +200,24 @@ Todos los experimentos utilizan `random_state=42` (scikit-learn) y `np.random.de
 |---|---|
 | Propuesta | Miércoles 3 de junio de 2026, 11:59 p.m. |
 | Check-in | Miércoles 10 de junio de 2026 |
-| Deep Learning Day (presentación oral) | Miércoles 17 de diciembre de 2026 |
-| Entrega final (informe + código + slides) | Miércoles 17 de diciembre de 2026, 11:59 p.m. |
+| Deep Learning Day (presentación oral) | Miércoles 17 de junio de 2026 |
+| Entrega final (informe + código + slides) | Miércoles 17 de junio de 2026, 11:59 p.m. |
 
 ---
 
 ## Referencias
 
-> *(Completar con las referencias del estado del arte utilizadas en el informe)*
+[1] L. Taus, V. Zinage, T. Tanaka y R. Tsai, Fast End-to-End Generation of Belief Space Paths for Minimum Sensing Navigation, arXiv preprint arXiv:2409.12902, 2024.
+
+[2] X. Xiao, Z. Xu, Z. Wang, Y. Song, G. Warnell, P. Stone et al., Autonomous Ground Navigation in Highly Constrained Spaces: Lessons Learned From the Benchmark Autonomous Robot Navigation Challenge at ICRA 2022, IEEE Robotics & Automation Magazine, vol. 29, pp. 148–156, 2022.
+
+[3] X. Xiao, Z. Xu, G. Warnell, P. Stone, F. Gebelli Guinjoan, R. T. Rodrigues et al., Autonomous Ground Navigation in Highly Constrained Spaces: Lessons Learned From the Second BARN Challenge at ICRA 2023, IEEE Robotics & Automation Magazine, vol. 30, pp. 91–97, 2023.
+
+[4] J. Sánchez-Ibáñez, C. Pérez-del-Pulgar y A. García-Cerezo, Path Planning for Autonomous Mobile Robots: A Review, Sensors, vol. 21, no. 23, 2021.
+
+[5] A. Loganathan y N. S. Ahmad, A Systematic Review on Recent Advances in Autonomous Mobile Robot Navigation, Engineering Science and Technology, an International Journal, 2023.
+
+[6] M. Mohammadi, A. Al-Fuqaha y J. S. Oh, Path Planning in Support of Smart Mobility Applications Using Generative Adversarial Networks, Proceedings of the IEEE International Conference on Internet of Things (iThings), 2018.
 
 ---
 
